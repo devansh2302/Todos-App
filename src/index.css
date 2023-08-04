@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  background-color: rgb(1, 136, 148);
+}
+.main-div{
+  background-color: rgb(49 120 183 / 16%);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container-div{
+  width: 25%;
+  height: 80vh;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius:  15px; ;
+}
+h1{
+  color: white;
+  background: transparent;
+  background-color: rgb(30 145 157);
+  padding: 6px 0px 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+
+}
+  
+  
+.inp{
+  
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent ;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid rgb(30 145 157);
+  outline: none;
+    
+}
+button{
+  min-height: 40px;
+  width: 50px;
+  border-radius: 50%;
+  /* border-color: transparent; */
+  background-color: rgb(30 145 157);
+  color: #fff;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+button:hover{
+  background-color: rgba(0, 174, 105, 0.895);
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(30 145 157);
+  text-transform: capitalize;
+}
+.delete{
+  min-height:25px;
+  width: 25px;
+  border-radius: 50%;
+  /* border-color: transparent; */
+  background-color: rgba(244, 10, 10, 0.548);
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.delete:hover{
+  background-color: rgba(244, 10, 10, 0.831);
+}
+
+.listcontainer{
+  display: flex;
+  flex-direction: row;
+}
